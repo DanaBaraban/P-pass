@@ -8,7 +8,7 @@
     You can also add your credentials to an existing key, using these values:
 
     Package name:
-    F7:16:E4:3F:E1:03:C6:37:C0:22:F0:46:68:46:30:41:D7:D0:56:52
+    dana_app.dana_ppass.dana.ppass
 
     SHA-1 certificate fingerprint:
     F7:16:E4:3F:E1:03:C6:37:C0:22:F0:46:68:46:30:41:D7:D0:56:52
@@ -19,5 +19,5 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC4g2Zaeme5v8g9Zx1QYA76g4TQ_OvHByg</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBex_WUteSUXfGZxJuNskUUsu5lNuAC4BY </string>
 </resources>

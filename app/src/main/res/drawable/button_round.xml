@@ -9,8 +9,8 @@
             android:topLeftRadius="10dp"
             android:topRightRadius="10dp"
             />
-            <stroke android:color="#fdfd01" android:width="5dp" />
-            <solid android:color="#fdfd01" />
+            <stroke android:color="#f9f801" android:width="5dp" />
+            <solid android:color="#f9f801" />
             <size android:width="150dp" android:height="150dp"/>
         </shape>
     </item>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/place_icon_in_list" />
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="360dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-30dp"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="TextView"
+        android:textSize="18sp"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/place_address"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:text="TextView"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="103dp"
+        android:text="Button" />
+</RelativeLayout>
